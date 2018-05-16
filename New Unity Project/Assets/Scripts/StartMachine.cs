@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartMachine : MonoBehaviour
-{
+public class StartMachine : MonoBehaviour {
 
+    public GameObject StartTrigger;
 	// Use this for initialization
 	void Start ()
     {
-        SceneManager.LoadScene("TheMachine", LoadSceneMode.Additive);
+		
 	}
 	
 	// Update is called once per frame
@@ -17,4 +17,14 @@ public class StartMachine : MonoBehaviour
     {
 		
 	}
+
+    void OnCollsion(Collision col)
+    {
+        if(col.gameObject.name.Contains("StartTrigger"))
+        {
+            SceneManager.LoadScene("TheMachine", LoadSceneMode.Additive);
+            SceneManager.SetActiveScene(SceneManager.GetSceneByName("TheMachine"));
+            SceneManager.UnloadSceneAsync(SceneManager.GetSceneByName("MainMenu"));
+        }
+    }
 }
