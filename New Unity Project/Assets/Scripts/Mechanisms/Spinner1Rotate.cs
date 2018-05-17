@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spinner1Rotate : MonoBehaviour {
+public class Spinner1Rotate : MonoBehaviour 
+{
 
      public float rSpeed = 0;
 
