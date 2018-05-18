@@ -19,7 +19,7 @@ public class PistonBehaviour : MonoBehaviour
         piston = GameObject.FindGameObjectWithTag("Piston");
         if(Bunce.collisionCheck)
         {
-            gameObject.transform.Translate(0, rSpeed, 0);
+            gameObject.transform.Translate(0, rSpeed * Time.deltaTime, 0);
 
             if ((gameObject.transform.position.x) > 1.5)
             {

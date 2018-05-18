@@ -16,7 +16,7 @@ public class Drive : MonoBehaviour
     {
 		if(Button.buttonQuery)
         {
-            gameObject.transform.Translate(0, 0, rSpeed);
+            gameObject.transform.Translate(0, 0, rSpeed * Time.deltaTime);
 
             if(gameObject.transform.position.z > 50)
             {
