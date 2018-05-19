@@ -1,0 +1,33 @@
+Initialize engine version: 5.6.3p2 (b3d7a6428558)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   22.21.13.8494
+Begin MonoManager ReloadAssembly
+Platform assembly: \\bournemouth.ac.uk\data\Student\Home\SciTech\s5069824\GDPL Assignment\New Unity Project\Rubegoldberg Machine_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading \\bournemouth.ac.uk\data\Student\Home\SciTech\s5069824\GDPL Assignment\New Unity Project\Rubegoldberg Machine_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: \\bournemouth.ac.uk\data\Student\Home\SciTech\s5069824\GDPL Assignment\New Unity Project\Rubegoldberg Machine_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading \\bournemouth.ac.uk\data\Student\Home\SciTech\s5069824\GDPL Assignment\New Unity Project\Rubegoldberg Machine_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: \\bournemouth.ac.uk\data\Student\Home\SciTech\s5069824\GDPL Assignment\New Unity Project\Rubegoldberg Machine_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading \\bournemouth.ac.uk\data\Student\Home\SciTech\s5069824\GDPL Assignment\New Unity Project\Rubegoldberg Machine_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: \\bournemouth.ac.uk\data\Student\Home\SciTech\s5069824\GDPL Assignment\New Unity Project\Rubegoldberg Machine_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading \\bournemouth.ac.uk\data\Student\Home\SciTech\s5069824\GDPL Assignment\New Unity Project\Rubegoldberg Machine_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.989 seconds
+Platform assembly: \\bournemouth.ac.uk\data\Student\Home\SciTech\s5069824\GDPL Assignment\New Unity Project\Rubegoldberg Machine_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: \\bournemouth.ac.uk\data\Student\Home\SciTech\s5069824\GDPL Assignment\New Unity Project\Rubegoldberg Machine_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 50.392269 ms
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 33c0 -> priority: 1 
+  Thread -> id: 2804 -> priority: 1 
+  Thread -> id: 1970 -> priority: 1 
+  Thread -> id: 3784 -> priority: 1 
+  Thread -> id: 764 -> priority: 1 
+  Thread -> id: 17fc -> priority: 1 
+UnloadTime: 0.750994 ms
